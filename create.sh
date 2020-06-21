@@ -4,7 +4,7 @@ find Win.iso || exit
 clear
 mkdir 1 && mkdir 2 && mkdir 3
 clear
-fdisk -l
+lsblk
 echo "Set your usb drive" & mount Win.iso 1
 read drive
 clear
