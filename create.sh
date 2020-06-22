@@ -5,7 +5,9 @@ clear
 mkdir 1 && mkdir 2 && mkdir 3
 clear
 lsblk
-echo "Set your usb drive" & mount Win.iso 1
+mount Win.iso 1
+clear
+echo "Set your usb drive" 
 read drive
 clear
 echo "Should i zero your drive(yes/no)?"
