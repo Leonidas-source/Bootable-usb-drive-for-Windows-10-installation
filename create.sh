@@ -18,7 +18,8 @@ dirrm(){
   rm -rf 1 2 3
 }
 find Win.iso || exit
-clear & dir
+clear
+dir
 mount Win.iso 1
 clear
 lsblk -f
