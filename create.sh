@@ -19,7 +19,6 @@ dirrm(){
 }
 find Win.iso || exit
 clear
-clear
 lsblk -f
 echo "Set your usb drive"
 read drive
