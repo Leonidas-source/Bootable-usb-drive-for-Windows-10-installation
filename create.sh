@@ -15,7 +15,7 @@ tousb(){
   umount 3
 }
 dirrm(){
-  rm -rf 1 2 3
+  rm -rfv 1 2 3
 }
 find Win.iso || exit
 clear
