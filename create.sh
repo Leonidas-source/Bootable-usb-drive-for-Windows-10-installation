@@ -7,11 +7,11 @@ error3() {
   ls | cat >> $source/files
   cd $source
   grep -i "mkfs.exfat" files || error2
-  rm files
 }
 error2() {
   clear
   echo "Please install exfat-utils"
+  rm files
   exit
 }
 remove_all_temporary_files() {
