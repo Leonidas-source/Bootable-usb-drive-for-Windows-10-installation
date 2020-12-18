@@ -32,7 +32,7 @@ ready() {
   umount $drive2'9'
   umount $drive2'10'
   mkdir 1 2 3
-  parted $drive2 -s mklabel gpt mkpart "WINDOWS" fat32 1MiB 10241MiB
+  parted $drive2 -s mklabel gpt mkpart "WINDOWS" fat32 1MiB -1s
   mkfs.exfat $drive2'1'
   mount $win 1
   mount $drive2'1' 3
