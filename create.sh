@@ -83,6 +83,7 @@ user_check() {
   clear
   [ `/usr/bin/whoami` != root ] && error
 }
+set -e
 user_check
 error3
 rm files
